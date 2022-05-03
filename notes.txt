@@ -1,0 +1,45 @@
+前端
+命名 小驼峰
+vue
+指令名 如果是多个单词，要使用kebab-case命名方式，不要用camelCase命名
+函数名 变量名 用camelCase
+
+组件名:
+一个单词组成：
+    第一种写法(首字母小写)：school
+    第二种写法(首字母大写)：School
+多个单词组成：
+    第一种写法(kebab-case命名)：my-school
+    第二种写法(CamelCase命名)：MySchool (需要Vue脚手架支持)
+备注：
+    (1).组件名尽可能回避HTML中已有的元素名称，例如：h2、H2都不行。
+    (2).可以使用name配置项指定组件在开发者工具中呈现的名字。
+
+
+后端命名
+
+数据库
+库名 小写
+
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+192.168.31.21 SMILE8023+
+
+SuperUser September 418592995@qq.com SMILE8023+
+
+bt September SMILE8023+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # 选择数据库引擎
+        'HOST': '192.168.31.129',  # 数据库主机
+        'PORT': 3306,  # 数据库端口
+        'USER': 'September',  # 数据库用户名
+        'PASSWORD': 'SMILE8023+',  # 数据库用户密码
+        'NAME': 'computerhardware',  # 创建的数据库名字
+    }
+}
